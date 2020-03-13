@@ -23,16 +23,15 @@ function make_bar_code(descricao){
 
 JsBarcode("#barcode", descricao, {
     format: "EAN13",
-    lineColor: "#0aa",
-    width: 4,
-    height: 40,
+    width: 1,
+    height: 30,
     displayValue: true,
-    flat: true,
-    height: 100, 
+    flat: false,
+    height: 60, 
     textPosition: "bottom", 
     fontSize: 16,
-    lineColor: "#000000",
-    background: "#FFFFFF"
+    background:"white",
+    lineColor:"black"
 
 });
 }
